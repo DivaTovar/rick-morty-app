@@ -14,7 +14,7 @@ function CharacterCard({ character }) {
         <Typography variant="h5">{character.name}</Typography>
         <Button
           variant="contained"
-          sx={{ backgroundColor: '#88e23b', color: '#000', '&:hover': { backgroundColor: '#76d62a' } }} // Estilos para el botón
+          sx={{ backgroundColor: '#beff33', color: '#000', '&:hover': { backgroundColor: '#76d62a' } }} // Estilos para el botón
           component={Link}
           to={`/characters/${character.id}`}
           style={{ marginTop: '20px', display: 'block', marginLeft: 'auto', marginRight: 'auto' }} // Estilo adicional
